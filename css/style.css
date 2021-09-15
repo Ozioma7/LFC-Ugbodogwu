@@ -1,0 +1,181 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #ffffff;
+  }
+  
+  /*Global */
+  .container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    }
+    
+
+  /* Header **/
+  header{
+    background: #ff0000;
+    color: #333333;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: #c0392b; 3px solid;
+  }
+
+  img{
+    display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 340px;
+      width: 340px;
+      margin: 0 !important;
+      vertical-align: 50px !important;
+      background: none !important;
+      padding: 5px !important;
+}
+  
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: center;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .heightlight, header .current a{
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+
+  .menu-bar
+{
+    background: #ff0000;
+    text-align: right;
+}
+.menu-bar ul
+{
+  display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+.menu-bar ul li
+{
+width: 100px;
+margin: 10px;
+padding: 10px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.active, .menu-bar ul li:hover
+{
+border-radius: 3px;
+
+}
+
+.menu-bar 
+{
+    margin-right: 8px;
+}
+.sub-menu
+{
+  display: none;  
+}
+.menu-bar ul li:hover .sub-menu
+{
+    display: block;
+    position: absolute;
+    background: #ff0000;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child
+{
+    border-bottom: none; 
+}
+  
+  
+  /*Showcase */
+  #showcase{
+    min-height: 400px;
+    background:url("../img/brethren.jpg");
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  
+  #showcase p{
+    font-size: 20px;
+  }
+  
+
+  /*Boxes */
+  #boxes .box{
+    float:left;
+    text-align: center;
+  }
+
+  
+  
+ 
+
+  footer{
+    padding: 5px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color:#ff0000;
+    text-align: center;
+  }
+  
+  
+ 
